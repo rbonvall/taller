@@ -1,5 +1,5 @@
 index.html: index.rst
-	rst2html $^ $@
+	rst2html --stylesheet-path=lsr.css --link-stylesheet $^ $@
 	recode u8..h -d $@
 
 clean:

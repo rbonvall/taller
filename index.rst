@@ -7,11 +7,11 @@ Taller de Programación, 1-2009
 Acerca de la asignatura
 -----------------------
 El Taller de Programación está orientado para servir de preparación para el
-`concurso de programación de ACM`__.  Con este objetivo, se presentará una
+`concurso de programación de ACM`_.  Con este objetivo, se presentará una
 interesante variedad de temas relacionados con la programación, el diseño de
 algoritmos y las matemáticas discretas.
 
-.. __: http://www.acm-icpc.cl/acm/
+.. _concurso de programación de ACM: http://www.acm-icpc.cl/acm/
 
 El "público objetivo" de la asignatura es:
 
@@ -26,26 +26,36 @@ Estructura del curso
 * Tareas semanales
 * Laboratorios periódicos
 * Certamen único a final de semestre
-* Entrenamientos periódicos para el concurso
+* Entrenamientos mensuales para el concurso
 
 
 Evaluación
 ----------
 50% nota de tareas, 50% nota del certamen.
 
+Las tareas serán ejercicios de programación tipo concurso.  Deben
+resolver por lo menos un problema cada semana, a elegir entre los asignados.
+Las tareas serán evaluadas por el juez electrónico del sitio 
+`Programming Challenges`_.  Deben **inscribirse en el sitio** y **enviarme su
+nombre de usuario** para agregarlos al curso.  Como respaldo, también conviene
+que se inscriban con el `juez de la Universidad de Valladolid`_.
+
+.. _Programming Challenges: http://www.programming-challenges.com/
+.. _juez de la Universidad de Valladolid: http://icpcres.ecs.baylor.edu/onlinejudge/
+
 
 Material
 --------
-El ramo está basado en el curso `Programming Challenges`_ de la Stony Brook
+El ramo está basado en el `curso Programming Challenges`_ de la Stony Brook
 University, y en el libro del mismo nombre.  Hay harto material disponible
 en su página.
 
-.. _Programming Challenges: http://www.cs.sunysb.edu/~skiena/392/
+.. _curso Programming Challenges: http://www.cs.sunysb.edu/~skiena/392/
 
 
-Calendario del curso
---------------------
-.. include:: calendar.rst
+.. Calendario del curso
+.. --------------------
+.. .. include:: calendar.rst
 
 
 Comentarios

@@ -37,8 +37,9 @@ Las tareas serán ejercicios de programación tipo concurso.  Deben
 resolver por lo menos un problema cada semana, a elegir entre los asignados.
 Las tareas serán evaluadas por el juez electrónico del sitio 
 `Programming Challenges`_.  Deben **inscribirse en el sitio** y **enviarme su
-nombre de usuario** para agregarlos al curso.  Como respaldo, también conviene
-que se inscriban con el `juez de la Universidad de Valladolid`_.
+nombre de usuario** para agregarlos al curso `TallerProgramacion2009`.
+Como respaldo, también conviene que se inscriban con el
+`juez de la Universidad de Valladolid`_.
 
 .. _Programming Challenges: http://www.programming-challenges.com/
 .. _juez de la Universidad de Valladolid: http://icpcres.ecs.baylor.edu/onlinejudge/

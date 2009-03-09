@@ -39,32 +39,10 @@ Será publicado pronto.
 
 Calendario del curso
 --------------------
-.. raw:: html
+.. include:: calendar.rst
 
-    <iframe src="//www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=250&amp;wkst=2&amp;hl=es&amp;bgcolor=%23FFFFFF&amp;src=42p4bhurk5c7vv20ved0fgnm9o%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=America%2FSantiago" style=" border-width:0 " width="800" height="250" frameborder="0" scrolling="no"></iframe>
 
 Comentarios
 -----------
-.. raw:: html
-
-    <div id="disqus_thread"></div>
-    <script type="text/javascript" src="http://disqus.com/forums/tallerprogra/embed.js"></script>
-    <noscript><a href="http://tallerprogra.disqus.com/?url=ref">Comentarios.</a></noscript>
-    <!--<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>-->
-
-    <script type="text/javascript">
-    //<![CDATA[
-    (function() {
-            var links = document.getElementsByTagName('a');
-            var query = '?';
-            for(var i = 0; i < links.length; i++) {
-                if(links[i].href.indexOf('#disqus_thread') >= 0) {
-                    query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
-                }
-            }
-            document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/tallerprogra/get_num_replies.js' + query + '"></' + 'script>');
-        })();
-    //]]>
-    </script>
-
+.. include:: comments.rst
 

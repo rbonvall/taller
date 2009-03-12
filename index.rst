@@ -3,6 +3,7 @@ Taller de Programación, 1-2009
 
 :Profesor: Roberto Bonvallet <rbonvall@inf.utfsm.cl>
 :Horario:  Lunes 9-10, sala C-236
+:Sigla:    ILI-140
 
 Acerca de la asignatura
 -----------------------
@@ -24,7 +25,7 @@ Estructura del curso
 --------------------
 * Cátedra semanal
 * Tareas semanales
-* Laboratorios periódicos
+* Laboratorio semanal
 * Certamen único a final de semestre
 * Entrenamientos mensuales para el concurso
 
@@ -36,8 +37,8 @@ Evaluación
 Las tareas serán ejercicios de programación tipo concurso.  Deben
 resolver por lo menos un problema cada semana, a elegir entre los asignados.
 Las tareas serán evaluadas por el juez electrónico del sitio 
-`Programming Challenges`_.  Deben **inscribirse en el sitio** y **enviarme su
-nombre de usuario** para agregarlos al curso `TallerProgramacion2009`.
+`Programming Challenges`_.  Deben **inscribirse en el sitio** y agregarse al
+curso `TallerProgramacion2009` para poder subir sus tareas.
 Como respaldo, también conviene que se inscriban con el
 `juez de la Universidad de Valladolid`_.
 
@@ -49,9 +50,16 @@ Material
 --------
 El ramo está basado en el `curso Programming Challenges`_ de la Stony Brook
 University, y en el libro del mismo nombre.  Hay harto material disponible
-en su página.
+en su página, incluyendo `apuntes de clases` por escrito y en audio.
 
 .. _curso Programming Challenges: http://www.cs.sunysb.edu/~skiena/392/
+.. _apuntes de clases: http://www.cs.sunysb.edu/~skiena/392/audio/
+
+Un buen libro para repasar algoritmos y estructuras de datos es 
+*The Design and Analysis of Computer Algorithms*, de Aho, Hopcroft y Ullman.
+La `Wikipedia`_ también será útil para repasar conceptos olvidados.
+
+.. _Wikipedia: http://en.wikipedia.org/wiki/Main_Page
 
 
 .. Calendario del curso

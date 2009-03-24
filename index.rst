@@ -2,8 +2,20 @@ Taller de Programación, 1-2009
 ==============================
 
 :Profesor: Roberto Bonvallet <rbonvall@inf.utfsm.cl>
-:Horario:  Lunes 9-10, sala C-236
 :Sigla:    ILI-140
+:Horario:  Lunes 9-10, sala C-236
+:Laboratorio:  Martes y jueves 11-12, LabComp
+
+Material de clases
+------------------
+Resúmenes de clases, problemas asignados para cada semana, y discusión sobre
+la materia y las tareas de la semana.
+
+* `Clase 2`_ (16 de marzo)
+* `Clase 3`_ (23 de marzo)
+
+.. _Clase 2: clase2.html
+.. _Clase 3: clase3.html
 
 Acerca de la asignatura
 -----------------------
@@ -20,9 +32,8 @@ El "público objetivo" de la asignatura es:
 * estudiantes de cursos superiores que deseen reforzar sus técnicas y
   estrategias para resolver problemas de programación.
 
+La estructura del curso es:
 
-Estructura del curso
---------------------
 * Cátedra semanal
 * Tareas semanales
 * Laboratorio semanal
@@ -46,11 +57,11 @@ Como respaldo, también conviene que se inscriban con el
 .. _juez de la Universidad de Valladolid: http://icpcres.ecs.baylor.edu/onlinejudge/
 
 
-Material
---------
+Material adicional
+------------------
 El ramo está basado en el `curso Programming Challenges`_ de la Stony Brook
 University, y en el libro del mismo nombre.  Hay harto material disponible
-en su página, incluyendo `apuntes de clases` por escrito y en audio.
+en su página, incluyendo `apuntes de clases`_ por escrito y en audio.
 
 .. _curso Programming Challenges: http://www.cs.sunysb.edu/~skiena/392/
 .. _apuntes de clases: http://www.cs.sunysb.edu/~skiena/392/audio/
@@ -62,9 +73,9 @@ La `Wikipedia`_ también será útil para repasar conceptos olvidados.
 .. _Wikipedia: http://en.wikipedia.org/wiki/Main_Page
 
 
-.. Calendario del curso
-.. --------------------
-.. .. include:: calendar.rst
+Calendario del curso
+--------------------
+.. include:: calendar.rst
 
 
 Comentarios

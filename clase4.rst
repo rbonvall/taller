@@ -42,7 +42,7 @@ Vimos los siguientes temas.
    Afortunadamente en Java el problema ya está resuelto en la biblioteca
    estándar en la clase `java.math.BigInteger`_.  También hay bibliotecas de
    enteros grandes para C y C++, como `GMP`_, que sin embargo hay que instalar
-   separadamente, y probablemente el juez virtual no la tiene instalada.  Hay
+   separadamente, y que probablemente el juez virtual no tiene instalada.  Hay
    otros lenguajes (como Python) donde los enteros nativos se convierten
    transparentemente en enteros grandes cuando es necesario.
 

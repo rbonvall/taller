@@ -2,16 +2,18 @@
 #include <stdlib.h>
 
 
-/* funcion de comparacion, * para ordenar enteros en orden ascendente */
+/* funciones de comparacion */
 int compare_int(const void *a_ptr, const void *b_ptr) {
     int a = *((int *) a_ptr);
     int b = *((int *) b_ptr);
     return a - b;
 }
 
+int compare_int_rev(const void *a_ptr, const void *b_ptr) {
+    /* lo mismo de arriba pero menos legible y en el orden inverso */
+    return *((int *) b_ptr) - *((int *) a_ptr);
+}
 
-/* funcion de comparacion, * para ordenar por paridad
- * (impares a la izquierda, pares a la derecha) */
 int compare_parity(const void *a_ptr, const void *b_ptr) {
     int a = *((int *) a_ptr);
     int b = *((int *) b_ptr);
@@ -19,24 +21,36 @@ int compare_parity(const void *a_ptr, const void *b_ptr) {
 }
 
 
-int main() {
+
+void print_array(int array[], int n) {
     int i;
+    for (i = 0; i < n; ++i)
+        printf("%d ", array[i]);
+    printf("\n");
+}
+
+
+int main() {
     int values[] = {8, 4, 1, 7, 2, 6, 0, 9, 3, 5};
+    const int N = 10;
 
-    /* mostrar arreglo original */
-    printf("Lista desordenada: ");
-    for (i = 0; i < 10; ++i)
-        printf("%d ", values[i]);
-    printf("\n");
+    printf("Lista original:             ");
+    print_array(values, N);
 
-    /* ordenar arreglo */
-    qsort(values, 10, sizeof *values, &compare_int);
+    qsort(values, N, sizeof *values, &compare_int);
 
-    /* mostrar arreglo ordenado */
-    printf("Lista ordenada:   ");
-    for (i = 0; i < 10; ++i)
-        printf("%d ", values[i]);
-    printf("\n");
+    printf("Lista ordenada:             ");
+    print_array(values, N);
+
+    qsort(values, N, sizeof *values, &compare_int_rev);
+
+    printf("Lista invertida:            ");
+    print_array(values, N);
+
+    qsort(values, N, sizeof *values, &compare_parity);
+
+    printf("Lista ordenada por paridad: ");
+    print_array(values, N);
 
     return 0;
 }

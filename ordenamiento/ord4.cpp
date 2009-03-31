@@ -4,8 +4,7 @@
 
 using namespace std;
 
-// si algun dia cambia el numero de meses del an~o, se puede cambiar aqui
-enum {N_MONTHS = 12};
+const int N_MONTHS = 12;
 
 struct month {
     int n;
@@ -14,12 +13,12 @@ struct month {
     // definir la relacion "<" para dos meses como el orden cronologico;
     // este es el criterio con el que se ordenaran los meses por omision
     bool operator< (const month& other_month) const {
-        return this->n < other_month.n;
+        return (*this).n < other_month.n;
     }
 };
 
 
-// funcion para poder imprimir un mes paltosamente
+// funcion para imprimir un mes paltosamente
 ostream& operator<< (ostream& out, month const& m) {
     return out << m.n << " " << m.abr;
 }
@@ -39,22 +38,23 @@ int main() {
         { 9, "Sep"}, {10, "Oct"}, {11, "Nov"}, {12, "Dic"},
     };
 
-    // desordenar lista
     random_shuffle(&months[0], &months[N_MONTHS]);
+
     cout << "Meses desordenados:" << endl;
     copy(&months[0], &months[N_MONTHS], ostream_iterator<month>(cout, "\n"));
     cout << endl;
 
-    // ordenar los meses; como no se especifica la funcion de comparacion,
-    // se ocupa la comparacion por omision, que definimos arriba
+    // como no se especifica la funcion de comparacion, se ordena
+    // cronologicamente, que es el criterio por omision que definimos arriba
     sort(&months[0], &months[N_MONTHS]);
-    cout << "Meses ordenados segun criterio por omision:" << endl;
+
+    cout << "Meses en orden cronologico:" << endl;
     copy(&months[0], &months[N_MONTHS], ostream_iterator<month>(cout, "\n"));
     cout << endl;
 
-    // ordenar los meses por orden alfabetico
-    // se ocupa la comparacion por omision, que es la que definimos arriba
+    // para ordenar alfabeticamente, especificamos una funcion de comparacion
     sort(&months[0], &months[N_MONTHS], by_name);
+
     cout << "Meses en orden alfabetico:" << endl;
     copy(&months[0], &months[N_MONTHS], ostream_iterator<month>(cout, "\n"));
     cout << endl;

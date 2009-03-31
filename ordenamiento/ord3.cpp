@@ -5,6 +5,7 @@
 
 using namespace std;
 
+// funcion de comparacion para ordenar por paridad
 bool by_parity(int i, int j) { return i % 2 < j % 2; }
 
 int main() {
@@ -17,26 +18,26 @@ int main() {
     copy(values.begin(), values.end(), ostream_iterator<int>(cout, " "));
     cout << endl;
 
-    // ordenar el vector
     sort(values.begin(), values.end());
+
     cout << "Lista ordenada:             ";
     copy(values.begin(), values.end(), ostream_iterator<int>(cout, " "));
     cout << endl;
 
-    // invertir el vector
     reverse(values.begin(), values.end());
+
     cout << "Lista invertida:            ";
     copy(values.begin(), values.end(), ostream_iterator<int>(cout, " "));
     cout << endl;
 
-    // desordenar el vector
     random_shuffle(values.begin(), values.end());
+
     cout << "Lista desordenada:          ";
     copy(values.begin(), values.end(), ostream_iterator<int>(cout, " "));
     cout << endl;
 
-    // ordenar el vector por paridad, conservando el orden cuando hay empate
     stable_sort(values.begin(), values.end(), by_parity);
+
     cout << "Lista ordenada por paridad: ";
     copy(values.begin(), values.end(), ostream_iterator<int>(cout, " "));
     cout << endl;

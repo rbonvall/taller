@@ -1,3 +1,6 @@
+/* programacion dinamica usando un map en C++,
+ * modificando el programa original lo menos posible */
+
 #include <iostream>
 #include <map>
 
@@ -8,7 +11,7 @@ map<pair<int, int>, unsigned long long> cache;
 unsigned long long inv(int n, int k) {
     if (n == 0 && k == 0)
         return 1;
-    if (k < 0)
+    if (k < 0 || k > n * (n - 1) / 2)
         return 0;
 
     /* retornar de inmediato si el valor esta precalculado */

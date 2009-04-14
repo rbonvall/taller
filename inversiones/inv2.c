@@ -1,3 +1,5 @@
+/* Programacion dinamica usando una matriz bidimensional como cache */
+
 #include <stdio.h>
 
 #define N_MAX 19

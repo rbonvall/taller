@@ -1,3 +1,5 @@
+/* Implementacion ingenua del algoritmo */
+
 #include <stdio.h>
 
 unsigned long long inv(int n, int k) {

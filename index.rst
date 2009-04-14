@@ -14,10 +14,14 @@ la materia y las tareas de la semana.
 * `Clase 2`_ (16 de marzo)
 * `Clase 3`_ (23 de marzo)
 * `Clase 4`_ (30 de marzo)
+* `Clase 5`_ (6 de abril)
+* `Clase 6`_ (13 de abril)
 
 .. _Clase 2: clase2.html
 .. _Clase 3: clase3.html
 .. _Clase 4: clase4.html
+.. _Clase 5: clase5.html
+.. _Clase 6: clase6.html
 
 Acerca de la asignatura
 -----------------------

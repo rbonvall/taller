@@ -11,17 +11,21 @@ Material de clases
 Resúmenes de clases, problemas asignados para cada semana, y discusión sobre
 la materia y las tareas de la semana.
 
-* `Clase 2`_ (16 de marzo)
-* `Clase 3`_ (23 de marzo)
-* `Clase 4`_ (30 de marzo)
-* `Clase 5`_ (6 de abril)
-* `Clase 6`_ (13 de abril)
+* `Clase 2`_ (16 de marzo): entrada de datos y TDAs.
+* `Clase 3`_ (23 de marzo): ordenamiento y búsqueda binaria.
+* `Clase 4`_ (30 de marzo): funciones de ránking, strings, enteros grandes.
+* `Clase 5`_ (6 de abril): programación dinámica.
+* `Clase 6`_ (13 de abril): programación dinámica.
+* `Clase 7`_ (20 de abril): teoría de números.
+* `Clase 8`_ (27 de abril): backtracking.
 
 .. _Clase 2: clase2.html
 .. _Clase 3: clase3.html
 .. _Clase 4: clase4.html
 .. _Clase 5: clase5.html
 .. _Clase 6: clase6.html
+.. _Clase 7: clase7.html
+.. _Clase 8: clase8.html
 
 Acerca de la asignatura
 -----------------------

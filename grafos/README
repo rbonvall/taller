@@ -1,0 +1,7 @@
+Instrucciones de uso:
+
+  make
+  ./bfs < graph
+  ./dfs < graph
+  ./topo < dag
+

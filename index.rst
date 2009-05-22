@@ -20,6 +20,7 @@ la materia y las tareas de la semana.
 * `Clase 8`_ (27 de abril): backtracking.
 * `Clase 9`_ (4 de mayo): repaso.
 * `Clase 10`_ (11 de mayo): búsquedas en profundidad y en amplitud.
+* `Clase 11`_ (18 de mayo): ordenamiento topológico.
 
 .. _Clase 2: clase2.html
 .. _Clase 3: clase3.html
@@ -30,6 +31,7 @@ la materia y las tareas de la semana.
 .. _Clase 8: clase8.html
 .. _Clase 9: clase9.html
 .. _Clase 10: clase10.html
+.. _Clase 11: clase11.html
 
 Acerca de la asignatura
 -----------------------

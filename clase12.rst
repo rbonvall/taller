@@ -33,7 +33,13 @@ Pueden bajar `los tres algoritmos programados`_.
 
 Problemas asignados para esta semana
 ------------------------------------
-Los problemas de grafos quedarán para la semana después del certamen.
+* 111004 `Railroads`_
+* 111002 `The Necklace`_
+* 111001 `Freckles`_
+
+.. _Railroads: http://www.programming-challenges.com/pg.php?page=downloadproblem&probid=111004&format=html
+.. _The Necklace: http://www.programming-challenges.com/pg.php?page=downloadproblem&probid=111002&format=html 
+.. _Freckles: http://www.programming-challenges.com/pg.php?page=downloadproblem&probid=111001&format=html
 
 
 Discusión sobre la materia

@@ -22,12 +22,13 @@ En clases pasamos tres algoritmos relacionados con caminos y costos en grafos.
 
 En los apuntes de `CSE392 (Week 10)`_ hay más discusión al respecto.
 
-Ya subiré los algoritmos programados.
+Pueden bajar `los tres algoritmos programados`_.
 
 .. _Algoritmo de Dijkstra: http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 .. _Algoritmo de Floyd: http://en.wikipedia.org/wiki/Floyd_algorithm
 .. _árbol de expansión mínima: http://en.wikipedia.org/wiki/Minimum_spanning_tree
 .. _CSE392 (Week 10): http://www.cs.sunysb.edu/~skiena/392/lectures/week10/
+.. _los tres algoritmos programados: grafos-caminos.tgz
 
 
 Problemas asignados para esta semana
